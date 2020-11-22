@@ -1,0 +1,576 @@
+body#home
+{
+    background-color: #eee3e0;
+    font-family: cursive;
+}
+#home header
+{
+    width: 1500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url("picture.jpg");
+}
+#home h1
+{
+    color: #FFD8CC;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    bottom:-80px;
+    left:-40px;
+    font-family: cursive;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    background-color: #FFD8CC;
+    overflow: auto;
+}
+nav ul li
+{
+    float: left;
+    border-right: 1px solid white;
+}
+nav ul li a 
+{
+    display: block;
+    color: #d39480; 
+    text-align: center;
+    padding: 8px 16px;
+}
+nav ul li a:visited 
+{
+    color: #d39480;
+}
+nav .active 
+{
+    background-color: #f5cec2;
+}
+
+#home main
+{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 380px;
+    margin-top: 50px;
+}
+#home div
+{
+    border:5px dotted #d39480;
+    background-color: #FFD8CC;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 20px;
+}
+#home h3
+{
+    color: #d39480;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#home img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home aside
+{
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 10px;
+    float: right;
+}
+#home section
+{
+    border: 1px solid #d39480;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f1e3df;;
+}
+#home section h2
+ {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    margin: 0px;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(#d39480, #d39480);
+    color: white;
+}
+#home table
+{
+    margin-left: auto; 
+    margin-right: auto
+}
+#home th
+{
+    background-color: #f8bfae;
+}
+#home td
+{
+    background-color: #FFD8CC;
+    text-align: center;
+}
+body#destinations
+{
+    background-color: #eee3e0;
+    font-family: cursive;
+}
+#destinations header
+{
+    width: 1500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+div#mycarousel
+{
+    width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 130%;
+}
+div#culture
+{
+    background-image: url("big_ben.jpg");
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 700px;
+}
+#culture p
+{
+    color: white;
+}
+#culture h1
+{
+    color: white;
+}
+div#beach
+{
+    background-image: url("barcelona_beach.jpg");
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: -460px;
+    width: 700px;
+    height: 430px;
+}
+#beach p
+{
+    color: white;
+}
+#beach h1
+{
+    color: white;
+}
+div#romance
+{
+    background-image: url("gondola.jpg");
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 700px;
+}
+#romance p
+{
+    color: white;
+}
+#romance h1
+{
+    color: white;
+}
+div#ski
+{
+    background-image: url("ski.jpg");
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: -460px;
+    width: 700px;
+    height: 430px;
+}
+#ski p
+{
+    color: white;
+}
+#ski h1
+{
+    color: white;
+}
+div#christmas
+{
+    background-image: url("xmas.jpg");
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 700px;
+}
+#christmas p
+{
+    color: white;
+}
+#christmas h1
+{
+    color: white;
+}
+div#festival
+{
+    background-image: url("festival.jpg");
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: -460px;
+    width: 700px;
+    height: 430px;
+}
+#festival p
+{
+    color: white;
+}
+#festival h1
+{
+    color: white;
+}
+body#cultural_destinatoins
+{
+    background-color: #cfe7f3;
+    font-family: cursive;
+}
+#cultural_destinatoins header
+{
+    background-image: url("culture.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 1500px;
+}
+#cultural_destinatoins h1
+{
+    text-align: center;
+    color:  rgb(78, 172, 206);
+    margin-top: 280px;
+}
+#cultural_destinatoins nav ul
+{
+    background-color: rgb(166, 207, 223);
+}
+#cultural_destinatoins nav ul li a 
+{
+    color: rgb(78, 172, 206);
+}
+#cultural_destinatoins nav ul li a:visited 
+{
+    color:  rgb(78, 172, 206);
+}
+div.card
+{
+    margin: 20px;
+    border: 1px solid rgb(161, 171, 180);
+}
+div.cult_p
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+body#beach_destinations
+{
+    font-family: cursive;
+    background-color: #ffddbd;
+}
+#beach_destinations header
+{
+    background-image: url("beach.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 1500px;
+}
+#beach_destinations h1
+{
+    text-align: center;
+    color:  #ffa34d;
+    margin-top: 280px;
+}
+#beach_destinations nav ul
+{
+    background-color: #ffbc82;
+}
+#beach_destinations nav ul li a 
+{
+    color: #ff8923;
+}
+#beach_destinations nav ul li a:visited 
+{
+    color:  #ff8923;
+}
+div.beach_p
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;   
+}
+body#romantic_destinations
+{
+    font-family: cursive;
+    background: #f2b8c6;
+}
+#romantic_destinations header
+{
+    background-image: url("romance.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 1500px;
+}
+#romantic_destinations h1
+{
+    text-align: center;
+    color:  #ffdce4;
+    margin-top: 280px;
+}
+#romantic_destinations nav ul
+{
+    background-color: #fe7f9c;
+}
+#romantic_destinations nav ul li a 
+{
+    color: #ff4772;
+}
+#romantic_destinations nav ul li a:visited 
+{
+    color:  #ff4772;
+}
+div.romance_p
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;   
+}
+body#ski_destinations
+{
+    font-family: cursive;
+    background: #98ddc6;
+}
+div.ski_p
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;   
+}
+#ski_destinations header
+{
+    background-image: url("skiing.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 1500px;
+}
+#ski_destinations h1
+{
+    text-align: center;
+    color: #16ca8e;
+    margin-top: 280px;
+}
+#ski_destinations nav ul
+{
+    background-color: #59c9a3;
+}
+#ski_destinations nav ul li a 
+{
+    color: #109c6e;
+}
+#ski_destinations nav ul li a:visited 
+{
+    color:  #109c6e;
+}
+body#xmas_destinations
+{
+    font-family: cursive;
+    background: #be6058;
+}
+div.xmas_p
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;   
+}
+#xmas_destinations header
+{
+    background-image: url("christmas.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 1500px;
+}
+#xmas_destinations h1
+{
+    text-align: center;
+    color: #8cf5d2;
+    margin-top: 280px;
+}
+#xmas_destinations nav ul
+{
+    background-color: #59c9a3;
+}
+#xmas_destinations nav ul li a 
+{
+    color: #109c6e;
+}
+#xmas_destinations nav ul li a:visited 
+{
+    color:  #109c6e;
+}
+body#festival_destinations
+{
+    font-family: cursive;
+    background: #ad608a;
+}
+div.fest_p
+{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;   
+}
+#festival_destinations header
+{
+    background-image: url("fest.jpg");
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 1500px;
+}
+#festival_destinations h1
+{
+    text-align: center;
+    color: #a00058;
+    margin-top: 280px;
+}
+#festival_destinations nav ul
+{
+    background-color: #a1045a;
+}
+#festival_destinations nav ul li a 
+{
+    color: #ff008c;
+}
+#festival_destinations nav ul li a:visited 
+{
+    color:  #ff008c;
+}
+body#best_hotels
+{
+    background-color: #63c5da;
+    font-family: cursive;
+}
+#best_hotels header
+{
+    width: 1500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url("hotels.jpg");
+}
+#best_hotels h1
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    bottom:-150px;
+    
+    font-family: cursive;
+}
+#best_hotels nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    background-color: #0088a7;
+    overflow: auto;
+}
+#best_hotels nav ul li
+{
+    float: left;
+    border-right: 1px solid white;
+}
+#best_hotels nav ul li a 
+{
+    display: block;
+    color: #73b7c7; 
+    text-align: center;
+    padding: 8px 16px;
+}
+#best_hotels nav ul li a:visited 
+{
+    color: #73b7c7;
+}
+#best_hotels nav .active 
+{
+    background-color: #006b83;
+}
+#best_hotels main
+{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 380px;
+    margin-top: 50px;
+    border: 1px solid #0088a7;
+}
+#best_hotels aside
+{
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 10px;
+    float: right;
+}
+#best_hotels h2
+{
+    color: #00596d;
+    text-align: center;
+}
+div#booking
+{
+    text-align: center;
+    margin-top: 50px;
+}
+div.carousel
+{
+    width: 720px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#best_hotels p
+{
+    color: #00596d;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#best_hotels h5
+{
+    color: #00596d;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar
+{
+    position: sticky;
+    top: 20px;
+}
